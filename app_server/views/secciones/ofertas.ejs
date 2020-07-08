@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row titulo-2">
+      <h4>Ofertas</h4>
+    </div>   
+    <% productosDeOferta.forEach((producto)=>{ %>
+    <a class="link-prd" href="/productos/<%=producto.id%>">
+
+      <div class="row producto">
+        <div class="col-xs-6" style="background-color: honeydew;"> 
+          <img class="img-prod" src=<%= producto.foto %> >
+        </div>
+        <div class="col-xs-6 ">
+          <ul class="ml-auto">
+            <li class="prd-precio">$<%= producto.precio %> </li>
+            <li class="prd-descuento"><%= producto.descuento %>% OFF</li>
+            <li class="prd-descripcion"><%= producto.nombre %> </li>
+            </ul>
+          </div>
+        </div>
+    </a>
+    <% }); %>
+</div>
+    

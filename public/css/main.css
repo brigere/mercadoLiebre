@@ -1,0 +1,60 @@
+body{
+    background-color: #ebebeb;
+}
+.navbar-light{
+  background-color:#fff159 !important ;
+}
+.logo{
+  max-width: 5rem;
+}
+.navbar-toggler{
+  font-size: 1rem;
+}
+.fa-shopping-cart{
+  color:grey;
+  padding: 0.4rem;
+}
+.titulo-2{
+  font-size: 4rem;
+  background-color: white;
+  margin: 0.1rem;
+  border-radius: 0.2rem;   
+  margin-top: 0.8rem; 
+  padding-left: 1rem;
+}
+.img-prod{
+  max-width: 6rem;
+  border-radius: 0.4rem;
+}
+.producto{
+  background-color: white;
+  margin: 0.1rem;
+  border-radius: 0.4rem;
+}
+.producto:hover{
+  background-color: #EEF4FC;
+}
+
+.prd-precio{
+    font-size: 22px;
+    list-style: none;
+}
+.prd-descripcion{
+    font-size: 12px;
+    list-style: none;
+}
+.prd-descuento{
+    font-size: 14px;
+    color:#00a650;
+    list-style: none;
+}
+a{
+  color:#212529;
+  text-decoration: none;
+}
+a:link{
+  color:#292126;
+  text-decoration: none;
+}
+
+
